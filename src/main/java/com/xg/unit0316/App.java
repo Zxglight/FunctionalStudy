@@ -25,6 +25,7 @@ public class App {
         int mult = add(mult(a, b), mult(a, b));
         System.out.println(add);
         System.out.println(mult);
+        System.out.println("hello world !!!");
     }
 
 }
