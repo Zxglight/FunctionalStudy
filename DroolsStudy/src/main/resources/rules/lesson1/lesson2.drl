@@ -1,0 +1,32 @@
+package com.xg.rules;
+
+import com.xg.drools.Account;
+import com.xg.util.OutPutDisplay;
+import com.xg.drools.CashFlow;
+import com.xg.drools.AccountingPeriod;
+
+dialect  "mvel"
+// list any import classes here.
+
+
+//declare any global variabies here.
+global OutPutDisplay showResult;
+
+
+
+rule "first rule"  //unique rule name.
+  when
+    CashFlow()
+  then
+//    使用定义的全局变量
+    showResult.showText("The cashflow is exits,inserting an accounting Period");
+    AccountingPeriod newPeriod = new AccountingPeriod();
+    insert(newPeriod)
+end
+
+rule "Accounting Period"
+  when
+    AccountingPeriod();
+  then
+    showResult.showText("account period is exists");
+end

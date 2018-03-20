@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://www.drools.org/xsd/kmodule">
+  <!-- name is rule name , packages id directory name -->
+  <kbase name="rules" packages="rules.lesson1">
+    <ksession name="ksession-rules"/>
+  </kbase>
+  <kbase name="rules2" packages="rules.lesson2">
+    <ksession name="ksession-rules2"/>
+  </kbase>
+</kmodule>
