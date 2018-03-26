@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b688fa7-63e5-456e-8f73-16101b358859" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson2/lesson2.drl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DroolsStudy/src/main/java/com/xg/drools/CashFlow.java" afterPath="$PROJECT_DIR$/DroolsStudy/src/main/java/com/xg/drools/CashFlow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson1/lesson1.drl" afterPath="$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson1/lesson1.drl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson1/lesson2.drl" afterPath="$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson1/lesson2.drl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson2/lesson1.drl" afterPath="$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson2/lesson1.drl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson2/lesson2.drl" afterPath="$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson2/lesson2.drl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DroolsStudy/src/test/java/com/xg/drools1/FirstTry.java" afterPath="$PROJECT_DIR$/DroolsStudy/src/test/java/com/xg/drools1/FirstTry.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functional-study.iml" afterPath="$PROJECT_DIR$/functional-study.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,9 +22,11 @@
       <file leaf-file-name="FirstTry.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DroolsStudy/src/test/java/com/xg/drools1/FirstTry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="53" column="9" lean-forward="false" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="234">
+              <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="28" />
+              <folding>
+                <element signature="e#502#534#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/resources/META-INF/kmodule.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -61,29 +57,14 @@
             <state relative-caret-position="493">
               <caret line="45" column="26" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <element signature="method#getRuleRuntimeEventListener#0;class#KnowledgeSessionHelper#0" expanded="false" />
+                <element signature="e#2200#2201#0" expanded="false" />
+                <element signature="e#2304#2305#0" expanded="false" />
+                <element signature="e#2606#2607#0" expanded="false" />
+                <element signature="e#2713#2714#0" expanded="false" />
                 <element signature="method#getAgendaEventListener#0;class#KnowledgeSessionHelper#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lesson1.drl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson2/lesson1.drl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lesson1.drl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson1/lesson1.drl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -91,8 +72,18 @@
       <file leaf-file-name="lesson2.drl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson2/lesson2.drl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/java/com/xg/drools/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -103,17 +94,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lesson2.drl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson1/lesson2.drl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-              <folding />
+              <folding>
+                <element signature="e#136#137#0" expanded="false" />
+                <element signature="e#231#232#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,8 +125,8 @@
       <file leaf-file-name="CashFlow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/java/com/xg/drools/CashFlow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="184">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -199,8 +183,8 @@
         <option value="$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson2/lesson1.drl" />
         <option value="$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson1/lesson1.drl" />
         <option value="$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson1/lesson2.drl" />
-        <option value="$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson2/lesson2.drl" />
         <option value="$PROJECT_DIR$/DroolsStudy/src/test/java/com/xg/drools1/FirstTry.java" />
+        <option value="$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson2/lesson2.drl" />
       </list>
     </option>
   </component>
@@ -371,6 +355,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="xg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -626,33 +614,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTry.testFistTwo (1)">
-    <configuration default="false" name="FirstTry.testFistThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.xg.drools.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="functional-study" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xg.drools" />
-      <option name="MAIN_CLASS_NAME" value="com.xg.drools.FirstTry" />
-      <option name="METHOD_NAME" value="testFistThree" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FirstTry.testFistTree">
     <configuration default="false" name="FirstTry.testFistFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -744,6 +706,32 @@
       <option name="PACKAGE_NAME" value="com.xg.drools1" />
       <option name="MAIN_CLASS_NAME" value="com.xg.drools1.FirstTry" />
       <option name="METHOD_NAME" value="testFistTwo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FirstTry.testFistTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.xg.drools1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DroolsStudy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.xg.drools1" />
+      <option name="MAIN_CLASS_NAME" value="com.xg.drools1.FirstTry" />
+      <option name="METHOD_NAME" value="testFistTree" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1411,19 +1399,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistThree" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistFour" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistFour (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistOne (1)" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistTwo (1)" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistFour" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistFour (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistOne (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistTwo (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistTree" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistTwo (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistOne (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistFour (1)" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistFour" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistThree" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistTree" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistTwo (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistOne (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistFour (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistFour" />
       </list>
     </recent_temporary>
   </component>
@@ -1455,7 +1443,7 @@
       <workItem from="1521553115147" duration="8068000" />
       <workItem from="1521612749119" duration="4816000" />
       <workItem from="1521887828955" duration="599000" />
-      <workItem from="1522074178734" duration="16000" />
+      <workItem from="1522074178734" duration="1427000" />
     </task>
     <task id="LOCAL-00001" summary="init repository">
       <created>1521277097297</created>
@@ -1478,12 +1466,19 @@
       <option name="project" value="LOCAL" />
       <updated>1521560837365</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add lesson2">
+      <created>1522074237377</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522074237377</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTry_testFistTwo - 2018.03.18 at 23h 01m 11s.xml">
-      <configuration name="FirstTry.testFistTwo" configurationId="JUnit" />
+    <history-entry file="FirstTry_testFistTree - 2018.03.26 at 22h 43m 41s.xml">
+      <configuration name="FirstTry.testFistTree" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FirstTry_testFistTwo - 2018.03.18 at 23h 02m 06s.xml">
       <configuration name="FirstTry.testFistTwo" configurationId="JUnit" />
@@ -1514,7 +1509,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35741000" />
+    <option name="totallyTimeSpent" value="37152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1534,12 +1529,13 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281768" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34585634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4198895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26187846" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3082873" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2994475" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2739872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1550,7 +1546,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281768" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1570,7 +1565,8 @@
     <MESSAGE value="init repository" />
     <MESSAGE value="study drools." />
     <MESSAGE value="study drools 2018年3月20日23:37:06 lesson2." />
-    <option name="LAST_COMMIT_MESSAGE" value="study drools 2018年3月20日23:37:06 lesson2." />
+    <MESSAGE value="add lesson2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lesson2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1704,14 +1700,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/rules/lesson1.drl" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xg/util/OutPutDisplay.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/rules/lesson2.drl" />
-    <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/java/com/xg/drools/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/java/com/xg/drools/AccountingPeriod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1733,7 +1721,12 @@
         <state relative-caret-position="493">
           <caret line="45" column="26" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
           <folding>
+            <element signature="imports" expanded="false" />
             <element signature="method#getRuleRuntimeEventListener#0;class#KnowledgeSessionHelper#0" expanded="false" />
+            <element signature="e#2200#2201#0" expanded="false" />
+            <element signature="e#2304#2305#0" expanded="false" />
+            <element signature="e#2606#2607#0" expanded="false" />
+            <element signature="e#2713#2714#0" expanded="false" />
             <element signature="method#getAgendaEventListener#0;class#KnowledgeSessionHelper#0" expanded="false" />
           </folding>
         </state>
@@ -1779,27 +1772,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/java/com/xg/drools/CashFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/resources/META-INF/kmodule.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/java/com/xg/util/OutPutDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#136#137#0" expanded="false" />
+            <element signature="e#231#232#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1811,18 +1791,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/java/com/xg/drools/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/java/com/xg/drools/CashFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/resources/META-INF/kmodule.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DroolsStudy/src/test/java/com/xg/drools1/FirstTry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="53" column="9" lean-forward="false" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="234">
+          <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="28" />
+          <folding>
+            <element signature="e#502#534#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson2/lesson2.drl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
           <folding />
         </state>
       </provider>

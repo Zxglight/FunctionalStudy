@@ -17,3 +17,12 @@ rule "first"  //unique rule name.
   then
     showResult.showText($mvDate.toString() + "test CashFlow -------");
 end
+
+rule "second"
+  when
+    $cash : CashFlow(type == CashFlow.CREDIT);
+    $acc : Account( );
+  then
+    $acc.setBalance($cash.getAmount()+$acc.getBalance());
+    showResult.showText("the account balance = " + $acc.getBalance());
+end

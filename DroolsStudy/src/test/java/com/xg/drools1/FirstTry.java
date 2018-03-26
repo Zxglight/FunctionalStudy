@@ -66,4 +66,21 @@ public class FirstTry {
         sessionStateFull.fireAllRules();
     }
 
+    @Test
+    public void testFistTree() {
+        sessionStateFull = KnowledgeSessionHelper.getStatefulKnowledgeSessionWithCallback(kieContainer, "ksession-rules2");
+        OutPutDisplay outPutDisplay = new OutPutDisplay();
+        sessionStateFull.setGlobal("showResult", outPutDisplay);
+        CashFlow cashFlow = new CashFlow();
+        //        cashFlow.setType(CashFlow.DEBIT);
+        cashFlow.setType(CashFlow.CREDIT);
+        cashFlow.setDate(new Date());
+        cashFlow.setAmount(20.4);
+        Account account = new Account();
+        sessionStateFull.insert(cashFlow);
+        account.setBalance(10.2);
+        sessionStateFull.insert(account);
+        sessionStateFull.fireAllRules();
+    }
+
 }
