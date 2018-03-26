@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
@@ -37,15 +37,15 @@
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.drools/drools-decisiontables -->
     <!--<dependency>-->
-      <!--<groupId>org.drools</groupId>-->
-      <!--<artifactId>drools-decisiontables</artifactId>-->
-      <!--<version>${org.drools.version}</version>-->
+    <!--<groupId>org.drools</groupId>-->
+    <!--<artifactId>drools-decisiontables</artifactId>-->
+    <!--<version>${org.drools.version}</version>-->
     <!--</dependency>-->
     <!-- https://mvnrepository.com/artifact/org.drools/drools-workbench-models-datamodel-api -->
     <!--<dependency>-->
-      <!--<groupId>org.drools</groupId>-->
-      <!--<artifactId>drools-workbench-models-datamodel-api</artifactId>-->
-      <!--<version>${org.drools.version}</version>-->
+    <!--<groupId>org.drools</groupId>-->
+    <!--<artifactId>drools-workbench-models-datamodel-api</artifactId>-->
+    <!--<version>${org.drools.version}</version>-->
     <!--</dependency>-->
     <!-- https://mvnrepository.com/artifact/org.drools/drools-templates -->
     <dependency>
@@ -55,9 +55,9 @@
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.drools/drools-persistence-jpa -->
     <!--<dependency>-->
-      <!--<groupId>org.drools</groupId>-->
-      <!--<artifactId>drools-persistence-jpa</artifactId>-->
-      <!--<version>${org.drools.version}</version>-->
+    <!--<groupId>org.drools</groupId>-->
+    <!--<artifactId>drools-persistence-jpa</artifactId>-->
+    <!--<version>${org.drools.version}</version>-->
     <!--</dependency>-->
 
     <!-- https://mvnrepository.com/artifact/org.kie/kie-api -->
@@ -68,21 +68,21 @@
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.kie/kie-internal -->
     <!--<dependency>-->
-      <!--<groupId>org.kie</groupId>-->
-      <!--<artifactId>kie-internal</artifactId>-->
-      <!--<version>${org.drools.version}</version>-->
+    <!--<groupId>org.kie</groupId>-->
+    <!--<artifactId>kie-internal</artifactId>-->
+    <!--<version>${org.drools.version}</version>-->
     <!--</dependency>-->
     <!-- https://mvnrepository.com/artifact/org.kie/kie-ci -->
     <!--<dependency>-->
-      <!--<groupId>org.kie</groupId>-->
-      <!--<artifactId>kie-ci</artifactId>-->
-      <!--<version>${org.drools.version}</version>-->
+    <!--<groupId>org.kie</groupId>-->
+    <!--<artifactId>kie-ci</artifactId>-->
+    <!--<version>${org.drools.version}</version>-->
     <!--</dependency>-->
     <!-- https://mvnrepository.com/artifact/org.kie/kie-spring -->
     <!--<dependency>-->
-      <!--<groupId>org.kie</groupId>-->
-      <!--<artifactId>kie-spring</artifactId>-->
-      <!--<version>${org.drools.version}</version>-->
+    <!--<groupId>org.kie</groupId>-->
+    <!--<artifactId>kie-spring</artifactId>-->
+    <!--<version>${org.drools.version}</version>-->
     <!--</dependency>-->
     <!-- https://mvnrepository.com/artifact/org.kie/kie-camel -->
     <dependency>
@@ -106,10 +106,10 @@
 
 
     <!--<dependency>-->
-      <!--<groupId>org.junit.jupiter</groupId>-->
-      <!--<artifactId>junit-jupiter-api</artifactId>-->
-      <!--<version>${junit-jupiter.version}</version>-->
-      <!--<scope>test</scope>-->
+    <!--<groupId>org.junit.jupiter</groupId>-->
+    <!--<artifactId>junit-jupiter-api</artifactId>-->
+    <!--<version>${junit-jupiter.version}</version>-->
+    <!--<scope>test</scope>-->
     <!--</dependency>-->
     <dependency>
       <groupId>junit</groupId>
@@ -118,28 +118,28 @@
       <scope>test</scope>
     </dependency>
     <!--<dependency>-->
-      <!--<groupId>org.junit.jupiter</groupId>-->
-      <!--<artifactId>junit-jupiter-engine</artifactId>-->
-      <!--<version>${junit-jupiter.version}</version>-->
-      <!--<scope>test</scope>-->
+    <!--<groupId>org.junit.jupiter</groupId>-->
+    <!--<artifactId>junit-jupiter-engine</artifactId>-->
+    <!--<version>${junit-jupiter.version}</version>-->
+    <!--<scope>test</scope>-->
     <!--</dependency>-->
     <!--<dependency>-->
-      <!--<groupId>org.junit.jupiter</groupId>-->
-      <!--<artifactId>junit-jupiter-params</artifactId>-->
-      <!--<version>${junit-jupiter.version}</version>-->
-      <!--<scope>test</scope>-->
+    <!--<groupId>org.junit.jupiter</groupId>-->
+    <!--<artifactId>junit-jupiter-params</artifactId>-->
+    <!--<version>${junit-jupiter.version}</version>-->
+    <!--<scope>test</scope>-->
     <!--</dependency>-->
     <!--<dependency>-->
-      <!--<groupId>org.junit.jupiter</groupId>-->
-      <!--<artifactId>junit-jupiter-migrationsupport</artifactId>-->
-      <!--<version>${junit-jupiter.version}</version>-->
-      <!--<scope>test</scope>-->
+    <!--<groupId>org.junit.jupiter</groupId>-->
+    <!--<artifactId>junit-jupiter-migrationsupport</artifactId>-->
+    <!--<version>${junit-jupiter.version}</version>-->
+    <!--<scope>test</scope>-->
     <!--</dependency>-->
     <!--<dependency>-->
-      <!--<groupId>org.junit.vintage</groupId>-->
-      <!--<artifactId>junit-vintage-engine</artifactId>-->
-      <!--<version>${junit-vintage.version}</version>-->
-      <!--<scope>test</scope>-->
+    <!--<groupId>org.junit.vintage</groupId>-->
+    <!--<artifactId>junit-vintage-engine</artifactId>-->
+    <!--<version>${junit-vintage.version}</version>-->
+    <!--<scope>test</scope>-->
     <!--</dependency>-->
     <dependency>
       <groupId>com.github.sbrannen</groupId>
@@ -160,7 +160,19 @@
       <version>${slf4j.version}</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
 
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.kie</groupId>
+        <artifactId>kie-maven-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+          <instrument-enabled>true</instrument-enabled>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>

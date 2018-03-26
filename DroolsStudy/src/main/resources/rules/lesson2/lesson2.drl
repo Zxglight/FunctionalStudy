@@ -8,16 +8,12 @@ import com.xg.drools.AccountingPeriod;
 dialect  "mvel"
 // list any import classes here.
 
-
 //declare any global variabies here.
 global OutPutDisplay showResult;
 
-
-
-rule "first rule revisited again"  //unique rule name.
+rule "first"  //unique rule name.
   when
-    Account(  )
+    $cash : CashFlow( $mvDate: date, type == CashFlow.CREDIT);
   then
-//    使用定义的全局变量
-    showResult.showText("The account is exits");
+    showResult.showText($mvDate.toString() + "test CashFlow -------");
 end

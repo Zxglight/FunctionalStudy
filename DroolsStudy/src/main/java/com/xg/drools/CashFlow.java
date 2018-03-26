@@ -10,6 +10,11 @@ import lombok.ToString;
  */
 @Data
 public class CashFlow {
+
+    public static final int CREDIT = 1;
+    public static int DEBIT = 2;
+
+
     private Date date;
     private double amount;
     private int type;
