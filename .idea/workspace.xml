@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b688fa7-63e5-456e-8f73-16101b358859" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/main/java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/main/java/com" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/main/java/com/xg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/main/java/com/xg/util" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/main/resources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/test/java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/test/java/com" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/test/java/com/xg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/test/java/com/xg/fpjava" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/FPJava.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/main" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/UnitTwo.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/main/java/com/xg/util/FpJavaUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -447,7 +433,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1308,7 +1294,7 @@
       <workItem from="1521612749119" duration="4816000" />
       <workItem from="1521887828955" duration="599000" />
       <workItem from="1522074178734" duration="1504000" />
-      <workItem from="1522243436703" duration="6498000" />
+      <workItem from="1522243436703" duration="6574000" />
     </task>
     <task id="LOCAL-00001" summary="init repository">
       <created>1521277097297</created>
@@ -1381,7 +1367,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43727000" />
+    <option name="totallyTimeSpent" value="43803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
