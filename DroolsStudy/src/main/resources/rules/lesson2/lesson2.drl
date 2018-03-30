@@ -4,12 +4,20 @@ import com.xg.drools.Account;
 import com.xg.util.OutPutDisplay;
 import com.xg.drools.CashFlow;
 import com.xg.drools.AccountingPeriod;
+import java.util.Date;
 
 dialect  "mvel"
 // list any import classes here.
 
 //declare any global variabies here.
 global OutPutDisplay showResult;
+
+declare Person
+  age: int
+  name: String
+  bir: Date
+end
+
 
 rule "first"  //unique rule name.
   when
@@ -25,4 +33,11 @@ rule "second"
   then
     $acc.setBalance($cash.getAmount()+$acc.getBalance());
     showResult.showText("the account balance = " + $acc.getBalance());
+end
+
+rule "three"
+  when
+
+  then
+    Person person = new Person();
 end
