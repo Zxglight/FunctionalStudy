@@ -4,6 +4,7 @@ import java.util.function.Function;
 
 /**
  * @author xg.zhao   2018 03 29 7:12
+ * function example from 《Functional Programming in Java》
  */
 public class UnitTwo {
 
@@ -66,6 +67,14 @@ public class UnitTwo {
         return x -> y -> z -> y.apply(x.apply(z));
     }
 
+    /** learn currying function */
+    static <A, B, C> Function<B, C> partialA(A a, Function<A, Function<B, C>> f) {
+        return f.apply(a);
+    }
+    static <A, B, C> Function<A, C> partialB(B b, Function<A, Function<B, C>> f) {
+        return a -> f.apply(a).apply(b);
+    }
+
     //-------------------------------------------------------------------------------------------
     public static void main(String[] args) {
         Integer apply = getAddFun().apply(100).apply(30);
@@ -85,5 +94,12 @@ public class UnitTwo {
         Double apply7 = UnitTwo.<String, Integer, Double>higherAndThen().apply(s -> s.length()).apply(integer -> integer + 2.0)
                 .apply("hello world!!!");
         System.out.println(apply7);
+    }
+
+    void testMethod() {
+        double a = 0.3;
+        Function<Double, Double> f = e -> e + a;
+        //        local variable modify cite will cause compile fails
+        //        a = 2.3;
     }
 }
