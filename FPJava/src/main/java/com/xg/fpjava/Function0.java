@@ -1,12 +1,12 @@
 package com.xg.fpjava;
 
+import com.xg.util.Tuple;
 import java.util.function.Function;
 
 /**
- * @author xg.zhao   2018 03 29 7:12
- * function example from 《Functional Programming in Java》
+ * @author xg.zhao   2018 03 29 7:12 function example from 《Functional Programming in Java》
  */
-public class UnitTwo {
+public class Function0 {
 
     static Function<Double, Integer> f = i -> (int) (i * 2);
     static Function<Integer, Long> l = i -> i * 10L;
@@ -67,12 +67,27 @@ public class UnitTwo {
         return x -> y -> z -> y.apply(x.apply(z));
     }
 
-    /** learn currying function */
+    /**
+     * study currying function
+     */
     static <A, B, C> Function<B, C> partialA(A a, Function<A, Function<B, C>> f) {
         return f.apply(a);
     }
+
     static <A, B, C> Function<A, C> partialB(B b, Function<A, Function<B, C>> f) {
         return a -> f.apply(a).apply(b);
+    }
+
+    static <A, B, C> Function<A, Function<B, C>> curry(Function<Tuple<A, B>, C> f) {
+        return a -> b -> f.apply(new Tuple<A, B>(a, b));
+    }
+
+    static <T, U, V> Function<U, Function<T, V>> reverseArgs(Function<T, Function<U, V>> f) {
+        return u -> t -> f.apply(t).apply(u);
+    }
+
+    static Function<Integer, Integer> factorial() {
+        return i -> i == 0 ? 1 : factorial().apply(i - 1);
     }
 
     //-------------------------------------------------------------------------------------------
@@ -83,15 +98,15 @@ public class UnitTwo {
         System.out.println(apply1);
         Function<Integer, Integer> apply2 = compose().apply(triple()).apply(square());
         System.out.println(apply2.apply(33));
-        Integer apply3 = UnitTwo.<Integer, Integer, Integer>higherCompose().apply(triple()).apply(square()).apply(12);
-        Integer apply4 = UnitTwo.<Integer, Integer, Integer>higherAndThen().apply(triple()).apply(square()).apply(12);
+        Integer apply3 = Function0.<Integer, Integer, Integer>higherCompose().apply(triple()).apply(square()).apply(12);
+        Integer apply4 = Function0.<Integer, Integer, Integer>higherAndThen().apply(triple()).apply(square()).apply(12);
         System.out.println(apply3);
         System.out.println(apply4);
-        Integer apply5 = UnitTwo.<Long, Double, Integer>higherAndThen().apply(d).apply(f).apply(1L);
-        Integer apply6 = UnitTwo.<Long, Double, Integer>higherCompose().apply(f).apply(d).apply(1L);
+        Integer apply5 = Function0.<Long, Double, Integer>higherAndThen().apply(d).apply(f).apply(1L);
+        Integer apply6 = Function0.<Long, Double, Integer>higherCompose().apply(f).apply(d).apply(1L);
         System.out.println(apply5);
         System.out.println(apply6);
-        Double apply7 = UnitTwo.<String, Integer, Double>higherAndThen().apply(s -> s.length()).apply(integer -> integer + 2.0)
+        Double apply7 = Function0.<String, Integer, Double>higherAndThen().apply(s -> s.length()).apply(integer -> integer + 2.0)
                 .apply("hello world!!!");
         System.out.println(apply7);
     }
