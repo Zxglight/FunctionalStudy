@@ -1,6 +1,10 @@
 package com.xg.fpjava;
 
 import com.xg.util.Tuple;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.function.Function;
 
 /**
@@ -90,6 +94,73 @@ public class Function0 {
         return i -> i == 0 ? 1 : factorial().apply(i - 1);
     }
 
+    public static Integer fold(List<Integer> list, Integer identity, Function<Integer, Function<Integer, Integer>> fun) {
+        int result = identity;
+        for (Integer i : list) {
+            result = fun.apply(result).apply(i);
+        }
+        return result;
+    }
+
+    public static <T> List<T> append(List<T> list, T t) {
+        List<T> ts = copy(list);
+        ts.add(t);
+        return Collections.unmodifiableList(ts);
+    }
+
+    public static <T> List<T> tail(List<T> list) {
+        if (list.size() == 0) {
+            throw new IllegalStateException("tail of empty list");
+        }
+        List<T> workList = copy(list);
+        workList.remove(0);
+        return Collections.unmodifiableList(workList);
+    }
+
+    public static <T> T head(List<T> list) {
+        if (list.size() == 0) {
+            throw new IllegalStateException("head of empty list");
+        }
+        return list.get(0);
+    }
+
+    private static <T> List<T> copy(List<T> ts) {
+        return new ArrayList<>(ts);
+    }
+
+    public static <T, U> U foldRight(List<T> list, U identity, Function<T, Function<U, U>> fun) {
+        return list.isEmpty() ? identity : fun.apply(head(list)).apply(foldRight(tail(list), identity, fun));
+    }
+
+    public static <T, U> U foldLeft(List<T> ts, U identity, Function<U, Function<T, U>> f) {
+        U result = identity;
+        for (T t : ts) {
+            result = f.apply(result).apply(t);
+        }
+        return result;
+    }
+
+    public static <T> List<T> resverse(List<T> list) {
+        return foldLeft(list, list(), x -> y -> foldLeft(x, list(y), a -> b -> append(a, b)));
+    }
+
+    public static <T> List<T> list() {
+        return Collections.emptyList();
+    }
+
+    public static <T> List<T> list(T t) {
+        return Collections.singletonList(t);
+    }
+
+    public static <T> List<T> list(List<T> ts) {
+        return Collections.unmodifiableList(new ArrayList<>(ts));
+    }
+
+    @SafeVarargs
+    public static <T> List<T> list(T... t) {
+        return Collections.unmodifiableList(Arrays.asList(Arrays.copyOf(t, t.length)));
+    }
+
     //-------------------------------------------------------------------------------------------
     public static void main(String[] args) {
         Integer apply = getAddFun().apply(100).apply(30);
@@ -109,6 +180,7 @@ public class Function0 {
         Double apply7 = Function0.<String, Integer, Double>higherAndThen().apply(s -> s.length()).apply(integer -> integer + 2.0)
                 .apply("hello world!!!");
         System.out.println(apply7);
+
     }
 
     void testMethod() {
