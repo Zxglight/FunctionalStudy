@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b688fa7-63e5-456e-8f73-16101b358859" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/Function2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/TailCall.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/Function0.java" afterPath="$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/Function0.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,18 +30,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Function0.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Function0.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/Function0.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2023">
-              <caret line="159" column="25" lean-forward="false" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+            <state relative-caret-position="727">
+              <caret line="192" column="0" lean-forward="true" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getAddFun#0;class#Function0#0" expanded="false" />
-                <element signature="e#3209#3210#0" expanded="true" />
-                <element signature="e#3274#3275#0" expanded="true" />
-                <element signature="e#4791#4792#0" expanded="true" />
-                <element signature="e#4892#4893#0" expanded="true" />
+                <element signature="e#5854#5881#0" expanded="true" />
+                <element signature="e#5975#6002#0" expanded="true" />
+                <element signature="e#6168#6191#0" expanded="true" />
+                <element signature="e#6271#6294#0" expanded="true" />
+                <element signature="e#6445#6470#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TailCall.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/TailCall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="94" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#1069#1070#0" expanded="true" />
+                <element signature="e#1104#1105#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
+                <element signature="e#1273#1274#0" expanded="true" />
+                <element signature="e#1525#1526#0" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#1858#1859#0" expanded="true" />
+                <element signature="e#1893#1894#0" expanded="true" />
+                <element signature="e#2368#2369#0" expanded="true" />
+                <element signature="e#2456#2457#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Function2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/Function2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+              <folding>
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1130#1131#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,10 +93,13 @@
       <file leaf-file-name="VerifyEmail.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/VerifyEmail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="408">
               <caret line="32" column="59" lean-forward="false" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2308#2309#0" expanded="false" />
+                <element signature="e#2373#2374#0" expanded="false" />
+                <element signature="e#2421#2422#0" expanded="false" />
+                <element signature="e#2478#2479#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -83,20 +130,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding>
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -266,7 +300,14 @@
             <state relative-caret-position="323">
               <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#318#319#0" expanded="false" />
+                <element signature="e#372#373#0" expanded="false" />
+                <element signature="e#467#468#0" expanded="false" />
+                <element signature="e#519#520#0" expanded="false" />
+                <element signature="e#592#593#0" expanded="false" />
+                <element signature="e#652#653#0" expanded="false" />
+                <element signature="e#1115#1116#0" expanded="false" />
+                <element signature="e#1177#1178#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -387,18 +428,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CashFlow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/java/com/xg/drools/CashFlow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="lesson2.drl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DroolsStudy/src/main/resources/rules/lesson2/lesson2.drl">
           <provider selected="true" editor-type-id="text-editor">
@@ -479,6 +508,8 @@
         <option value="$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/VerifyEmail2.java" />
         <option value="$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/VerifyEmail.java" />
         <option value="$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/Function0.java" />
+        <option value="$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/TailCall.java" />
+        <option value="$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/Function2.java" />
       </list>
     </option>
   </component>
@@ -553,6 +584,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -699,7 +731,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -710,7 +741,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="E:/ChromeDownload/drools/droolscourse/pom.xml" />
-    <property name="SearchEverywhereHistoryKey" value="Functi&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_72/src.zip!/java/util/function/Function.java&#10;List&#9;PSI&#9;JAVA://java.awt.List" />
+    <property name="SearchEverywhereHistoryKey" value="BigInteger&#9;PSI&#9;JAVA://java.math.BigInteger&#10;Functi&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_72/src.zip!/java/util/function/Function.java&#10;List&#9;PSI&#9;JAVA://java.awt.List" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -741,59 +772,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Function0">
-    <configuration default="false" name="FirstTry.testFistOne (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.xg.drools1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DroolsStudy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xg.drools1" />
-      <option name="MAIN_CLASS_NAME" value="com.xg.drools1.FirstTry" />
-      <option name="METHOD_NAME" value="testFistOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="FirstTry.testFistTwo (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.xg.drools1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DroolsStudy" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xg.drools1" />
-      <option name="MAIN_CLASS_NAME" value="com.xg.drools1.FirstTry" />
-      <option name="METHOD_NAME" value="testFistTwo" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Function2">
     <configuration default="false" name="FirstTry.testFistTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -848,6 +827,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.xg.fpjava.VerifyEmail" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FPJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.xg.fpjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.xg.fpjava.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FPJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Function2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.xg.fpjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.xg.fpjava.Function2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1514,19 +1533,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistOne (1)" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistTwo (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistTree" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Function0" />
-      <item index="4" class="java.lang.String" itemvalue="Application.VerifyEmail" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistTree" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Function0" />
+      <item index="2" class="java.lang.String" itemvalue="Application.VerifyEmail" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Function2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Function0" />
-        <item index="1" class="java.lang.String" itemvalue="Application.VerifyEmail" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistTree" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistTwo (1)" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistOne (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Function2" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Function0" />
+        <item index="3" class="java.lang.String" itemvalue="Application.VerifyEmail" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FirstTry.testFistTree" />
       </list>
     </recent_temporary>
   </component>
@@ -1567,7 +1586,8 @@
       <workItem from="1522550875254" duration="13265000" />
       <workItem from="1522631375856" duration="35000" />
       <workItem from="1522748051189" duration="105000" />
-      <workItem from="1522760817314" duration="3178000" />
+      <workItem from="1522760817314" duration="3255000" />
+      <workItem from="1523801457459" duration="5567000" />
     </task>
     <task id="LOCAL-00001" summary="init repository">
       <created>1521277097297</created>
@@ -1639,7 +1659,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522597214081</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Punch the clock is at April 3, 2018 22:18:30.">
+      <created>1522765133677</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1522765133677</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1675,7 +1702,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78569000" />
+    <option name="totallyTimeSpent" value="84213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1700,11 +1727,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29281768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19779006" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3082873" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2994475" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19189766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19402985" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1739,7 +1766,8 @@
     <MESSAGE value="learn higher functional 2018年3月30日23:18:26" />
     <MESSAGE value="Punch the clock is at 23:18:02 on March 31, 2018." />
     <MESSAGE value="Punch the clock is at April 1, 2018 23:39:36." />
-    <option name="LAST_COMMIT_MESSAGE" value="Punch the clock is at April 1, 2018 23:39:36." />
+    <MESSAGE value="Punch the clock is at April 3, 2018 22:18:30." />
+    <option name="LAST_COMMIT_MESSAGE" value="Punch the clock is at April 3, 2018 22:18:30." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1752,23 +1780,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1683">
@@ -2238,20 +2249,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2261,32 +2259,89 @@
         <state relative-caret-position="323">
           <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#318#319#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#467#468#0" expanded="false" />
+            <element signature="e#519#520#0" expanded="false" />
+            <element signature="e#592#593#0" expanded="false" />
+            <element signature="e#652#653#0" expanded="false" />
+            <element signature="e#1115#1116#0" expanded="false" />
+            <element signature="e#1177#1178#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/VerifyEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="408">
           <caret line="32" column="59" lean-forward="false" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2308#2309#0" expanded="false" />
+            <element signature="e#2373#2374#0" expanded="false" />
+            <element signature="e#2421#2422#0" expanded="false" />
+            <element signature="e#2478#2479#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/Function0.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="159" column="25" lean-forward="false" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+        <state relative-caret-position="727">
+          <caret line="192" column="0" lean-forward="true" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getAddFun#0;class#Function0#0" expanded="false" />
-            <element signature="e#3209#3210#0" expanded="true" />
-            <element signature="e#3274#3275#0" expanded="true" />
-            <element signature="e#4791#4792#0" expanded="true" />
-            <element signature="e#4892#4893#0" expanded="true" />
+            <element signature="e#5854#5881#0" expanded="true" />
+            <element signature="e#5975#6002#0" expanded="true" />
+            <element signature="e#6168#6191#0" expanded="true" />
+            <element signature="e#6271#6294#0" expanded="true" />
+            <element signature="e#6445#6470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_72/src.zip!/java/math/BigInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4704">
+          <caret line="122" column="13" lean-forward="false" selection-start-line="122" selection-start-column="13" selection-end-line="122" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/TailCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="94" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1858#1859#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#2368#2369#0" expanded="true" />
+            <element signature="e#2456#2457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FPJava/src/main/java/com/xg/fpjava/Function2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
           </folding>
         </state>
       </provider>
