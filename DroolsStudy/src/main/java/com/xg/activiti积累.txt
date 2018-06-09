@@ -1,0 +1,110 @@
+activiti工作流学习
+	工作流(Workflow)，就是“业务过程的部分或整体在计算机应用环境下的自动化”，它主要解决的是“使在多个参与者之间按照某种预定义的规则传递文档、信息或任务的过程自动进行，从而实现某个预期的业务目标，或者促使此目标的实现”。
+	
+	工作流管理系统(Workflow Management System, WfMS)是一个软件系统，它完成工作量的定义和管理，并按照在系统中预先定义好的工作流逻辑进行工作流实例的执行。工作流管理系统不是企业的业务系统，而是为企业的业务系统的运行提供了一个软件的支撑环境。.
+	
+	工作流框架底层需要有数据库支持，activiti5.13版本对应23张表，activiti框架底层使用mybatis操作数据库。JBPM4.4底层18张表，底层使用hibernate操作数据库。
+	
+	Activiti的后台是有数据库的支持，所有的表都以ACT_开头。 第二部分是表示表的用途的两个字母标识。 用途也和服务的API对应。
+		1)ACT_RE_*: 'RE'表示repository。 这个前缀的表包含了流程定义和流程静态资源 （图片，规则，等等）。
+		2)ACT_RU_*: 'RU'表示runtime。 这些运行时的表，包含流程实例，任务，变量，异步任务，等运行中的数据。 Activiti只在流程实例执行过程中保存这些数据， 在流程结束时就会删除这些记录。 这样运行时表可以一直很小速度很快。
+		3)ACT_ID_*: 'ID'表示identity。 这些表包含身份信息，比如用户，组等等。
+		4)ACT_HI_*: 'HI'表示history。 这些表包含历史数据，比如历史流程实例， 变量，任务等等。
+		ACT_GE_*: 通用数据， 用于不同场景下。
+		
+		
+**************************通过.zip压缩包的形式来进行附件加密。
+
+代码示例：	
+	使用框架提供的自动建表方式创建23张表
+		@Test
+		public void test1() {
+			String resource = "activiti-context.xml";// 配置文件
+			String beanName = "processEngineConfiguration";
+			// 读取配置文件，获得配置对象
+			ProcessEngineConfiguration config = ProcessEngineConfiguration
+					.createProcessEngineConfigurationFromResource(resource,
+							beanName);
+			ProcessEngine processEngine = config.buildProcessEngine();
+		}
+		***通过加载配置文件，使用流程引擎配置对象进行build创表操作。
+		
+		
+	部署流程定义,操作的数据表：act_re_deployment(部署表)、act_re_procdef(流程定义表)、act_ge_bytearray(二进制表)
+		@Test
+		public void test3() {
+			// 创建一个部署构建器对象
+			DeploymentBuilder deploymentBuilder = processEngine
+					.getRepositoryService().createDeployment();
+			// 读取流程定义文件（bpmn、png）
+			deploymentBuilder.addClasspathResource("qjlc.bpmn");
+			deploymentBuilder.addClasspathResource("qjlc.png");
+			// 部署流程定义
+			Deployment deployment = deploymentBuilder.deploy();
+			System.out.println(deployment.getId());
+		}
+		***通过流程引擎对象获取部署对象，添加对应的xml文件跟png文件来进行部署操作，之后返回一个部署deployment对象，对应act_re_deployment数据库表
+		这传的是两个参数，也可以将这两个文件压缩为一个.zip压缩包来进行部署构建。
+		
+	
+	根据流程定义启动流程实例,操作的数据表：act_ru_execution(流程实例表)、act_ru_task(任务表)
+		@Test
+		public void test5() {
+			String processDefinitionId = "qjlc:1:4";// 流程定义id
+			ProcessInstance processInstance = processEngine.getRuntimeService()
+					.startProcessInstanceById(processDefinitionId);
+			System.out.println(processInstance.getId());
+		}
+		***同样是通过流程引擎对象来获取到一个流程实例processinstance对象，操作的是一个act_run_execution数据库表
+		
+		
+	查询个人任务,操作的数据表：act_ru_task(任务表)
+		@Test
+		public void test6() {
+			// 任务查询对象
+			TaskQuery query = processEngine.getTaskService().createTaskQuery();
+			query.taskAssignee("张三");// 根据办理人过滤
+			query.orderByTaskCreateTime().desc();
+			List<Task> list = query.listPage(0, 10);
+			for (Task task : list) {
+				System.out.println("id = " + task.getId() + " name = "
+						+ task.getName() + " processInstanceId = "
+						+ task.getProcessInstanceId());
+			}
+		}
+		***核心对象时processEngine对象，他能延伸出很多个对象，这个是获取任务对象，进一步获取到了taskquery任务查询对象，进行查询执行人的任务，功能很强大的，提供了分页查询以及排序等
+		
+		
+	办理个人任务,操作的数据表：act_ru_execution(流程实例表)、act_ru_task(任务表)
+		@Test
+		public void test7() {
+			String taskId = "104";//任务id
+			processEngine.getTaskService().complete(taskId);
+		}
+		***complete方法，在熟悉不过了，平台的执行操作就是访问的complete.ht路径，深有体会啊。complete完全的，彻底的跟我理解的执行不一样哇，估计引申意思是完结执行了吧。或许。。。
+
+入门或许就是这些了，都不是很难，飞航云＋平台挺屌的，只是好些理解不了罢了。。。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
